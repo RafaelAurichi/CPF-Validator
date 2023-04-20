@@ -3,8 +3,6 @@ entrada = entrada.replace(".", "")
 entrada = entrada.replace("-", "")
 listaInput = list(entrada)
 
-validar1 = list(range(12));
-
 if len(listaInput) == 11:
 
   if listaInput[0] == listaInput[1] == listaInput[2] == listaInput[3] == listaInput[4] == listaInput[5] == listaInput[6] == listaInput[7] == listaInput[8] == listaInput[9] == listaInput[10]:
